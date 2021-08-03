@@ -43,7 +43,7 @@ http.createServer(async (req, res) => {
                 res.end()
             } catch (error) {
                 console.log("no validado")
-                res.statusCode = 404
+                res.statusCode = 401
                 res.end()
             }
 
